@@ -1,0 +1,59 @@
+<html>
+<head>    
+    <title>JB</title>
+    <style>
+        p{
+            text-align: center;
+            font-size: 32px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        img{
+            display: block;
+            margin: auto;
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <p>Can we hang out soon?</p>
+    <img src="https://media.tenor.com/zGm5acSjHCIAAAAM/cat-begging.gif">
+</body>
+<title>Holla</title>
+<head>
+<style>
+    #botao1{
+        position: fixed;
+        top: 70%;
+        left: 55%;
+        transform: translate(-50%,-50%);
+    }
+    #botao2{
+        position: absolute;
+        left: 39%;
+        top: 68%;
+    }
+</style>
+</head>
+<body>
+    <button id="botao1">YES BABE</button>
+    <button id="botao2">NO</button>
+    <script>
+        const button2 = document.getElementById('botao2');
+        const button1 = document.getElementById('botao1');
+        let left = 40;
+        button2.addEventListener('mouseover',function(){
+            if(left == 40){
+                left = 44;
+            }else{
+                left = 40;
+            }
+            this.style.left = left + '%';
+        });
+    </script>
+    <script>
+        button1.addEventListener('click',function(){
+            alert('I LOVE YOU ALWAYS❤️❤️')
+        });
+    </script>
+</body>
+</html>
